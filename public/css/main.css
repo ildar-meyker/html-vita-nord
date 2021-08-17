@@ -36,3 +36,38 @@
   padding: 19px 10px;
   border: 1px solid #000;
   border-width: 1px 0; }
+
+.header-2021__topbar {
+  display: flex;
+  align-items: center;
+  padding: 7px 10px; }
+  .header-2021__topbar__logo {
+    flex: 0 0 auto;
+    width: 50px;
+    margin-right: 25px; }
+    .header-2021__topbar__logo img {
+      display: block; }
+  .header-2021__topbar__icons {
+    display: flex;
+    align-items: center;
+    margin-left: auto; }
+    .header-2021__topbar__icons__item {
+      position: relative;
+      margin-left: 30px; }
+      .header-2021__topbar__icons__item svg {
+        transition: all .2s;
+        width: 17px;
+        height: 17px; }
+      .header-2021__topbar__icons__item:hover svg, .header-2021__topbar__icons__item.active svg {
+        fill: #ff47a5; }
+    .header-2021__topbar__icons__count {
+      position: absolute;
+      top: -4px;
+      right: 100%;
+      margin-right: -4px;
+      padding: 2px 5px;
+      border-radius: 10px;
+      background: #25aabf;
+      font-size: 9px;
+      line-height: 1;
+      color: #fff; }
