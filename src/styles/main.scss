@@ -1,7 +1,4 @@
-
-
-
-.header-2021 {
+.header-mobile {
     &__delivery {
         padding: 20px 10px;
 
@@ -110,5 +107,36 @@
             }
         }
     }
+}
 
+.header-desktop {
+    &__slogan {
+        font-family: "CyrillicOld";
+        font-size: 43px;
+        font-weight: normal;
+        line-height: 1;
+        color: #e30413;
+    }
+
+    &__delivery {
+        display: flex;
+        align-items: center;
+
+        &__icon {
+            width: 30px;
+            margin-right: 10px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        &__how {
+            &__item {
+                font-size: 14px;
+                text-decoration: underline;
+                color: #ff47a5 !important;
+            }
+        }
+    }
 }
