@@ -909,7 +909,7 @@
   display: flex;
   align-items: center;
   z-index: 104;
-  padding: 0 24px;
+  padding: 5px 24px;
   max-width: 1208px;
   margin: 0 auto;
   box-sizing: border-box;
@@ -917,10 +917,11 @@
   background-position: 50% 50%;
   background-color: #f0f3f8;
   background-image: url(../assets/img/header-decor-black.png);
-  background-repeat: repeat;
-  height: 48px; }
+  background-repeat: repeat; }
 
 .header-2021-top-left {
+  flex: 0 0 auto;
+  width: 30%;
   margin: 0 auto 0 0; }
 
 .header-2021-top-menu {

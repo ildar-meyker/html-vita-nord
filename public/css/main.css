@@ -83,6 +83,7 @@
   display: flex;
   align-items: center; }
   .header-desktop__delivery__icon {
+    flex: 0 0 auto;
     width: 30px;
     margin-right: 10px; }
     .header-desktop__delivery__icon img {
